@@ -31,6 +31,8 @@
     if (self) {
     // Create the data model.
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setLocale: [[NSLocale alloc] initWithLocaleIdentifier:@"haw"]];
+
     _pageData = [[dateFormatter monthSymbols] copy];
     }
     return self;
