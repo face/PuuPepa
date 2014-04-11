@@ -13,6 +13,5 @@
 @interface PuuModelController : NSObject <UIPageViewControllerDataSource>
 
 - (PuuDataViewController *)viewControllerAtIndex:(NSUInteger)index storyboard:(UIStoryboard *)storyboard;
-- (NSUInteger)indexOfViewController:(PuuDataViewController *)viewController;
 
 @end

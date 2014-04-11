@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0FF76E4918F83A4B00A33AA0"
-               BuildableName = "Pu&#699;uPepa.app"
-               BlueprintName = "Pu&#699;uPepa"
-               ReferencedContainer = "container:Pu&#699;uPepa.xcodeproj">
+               BuildableName = "Pu&#x2bb;uPepa.app"
+               BlueprintName = "Pu&#x2bb;uPepa"
+               ReferencedContainer = "container:Pu&#x2bb;uPepa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0FF76E7818F83A4C00A33AA0"
-               BuildableName = "Pu&#699;uPepaTests.octest"
-               BlueprintName = "Pu&#699;uPepaTests"
-               ReferencedContainer = "container:Pu&#699;uPepa.xcodeproj">
+               BuildableName = "Pu&#x2bb;uPepaTests.octest"
+               BlueprintName = "Pu&#x2bb;uPepaTests"
+               ReferencedContainer = "container:Pu&#x2bb;uPepa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FF76E4918F83A4B00A33AA0"
-            BuildableName = "Pu&#699;uPepa.app"
-            BlueprintName = "Pu&#699;uPepa"
-            ReferencedContainer = "container:Pu&#699;uPepa.xcodeproj">
+            BuildableName = "Pu&#x2bb;uPepa.app"
+            BlueprintName = "Pu&#x2bb;uPepa"
+            ReferencedContainer = "container:Pu&#x2bb;uPepa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FF76E4918F83A4B00A33AA0"
-            BuildableName = "Pu&#699;uPepa.app"
-            BlueprintName = "Pu&#699;uPepa"
-            ReferencedContainer = "container:Pu&#699;uPepa.xcodeproj">
+            BuildableName = "Pu&#x2bb;uPepa.app"
+            BlueprintName = "Pu&#x2bb;uPepa"
+            ReferencedContainer = "container:Pu&#x2bb;uPepa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FF76E4918F83A4B00A33AA0"
-            BuildableName = "Pu&#699;uPepa.app"
-            BlueprintName = "Pu&#699;uPepa"
-            ReferencedContainer = "container:Pu&#699;uPepa.xcodeproj">
+            BuildableName = "Pu&#x2bb;uPepa.app"
+            BlueprintName = "Pu&#x2bb;uPepa"
+            ReferencedContainer = "container:Pu&#x2bb;uPepa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

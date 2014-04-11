@@ -8,7 +8,9 @@
 
 #import "PuuModelController.h"
 
-#import "PuuDataViewController.h"
+#import "PuuMeaViewController.h"
+#import "PuuHoloholonaViewController.h"
+
 
 /*
  A controller object that manages a simple model -- a collection of month names.
@@ -20,7 +22,7 @@
  */
 
 @interface PuuModelController()
-@property (readonly, strong, nonatomic) NSArray *pageData;
+@property (strong, nonatomic) NSMutableArray *pages;
 @end
 
 @implementation PuuModelController
@@ -29,11 +31,7 @@
 {
     self = [super init];
     if (self) {
-    // Create the data model.
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setLocale: [[NSLocale alloc] initWithLocaleIdentifier:@"haw"]];
-
-    _pageData = [[dateFormatter monthSymbols] copy];
+      _pages = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -41,48 +39,36 @@
 - (PuuDataViewController *)viewControllerAtIndex:(NSUInteger)index storyboard:(UIStoryboard *)storyboard
 {   
     // Return the data view controller for the given index.
-    if (([self.pageData count] == 0) || (index >= [self.pageData count])) {
-        return nil;
+  
+  if ( index >= 2 )
+    return nil;
+  
+    if ( index >= [self.pages count]) {
+        PuuMeaViewController *meaview = [[PuuMeaViewController alloc] initWithNibName:@"PuuMeaViewController" bundle:nil];
+        [self.pages addObject: meaview];
+        PuuHoloholonaViewController *holoview = [[PuuHoloholonaViewController alloc] initWithNibName:@"PuuHoloholonaViewController" bundle:nil];
+        [self.pages addObject: holoview];
     }
-    
-    // Create a new view controller and pass suitable data.
-    PuuDataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"PuuDataViewController"];
-    dataViewController.dataObject = self.pageData[index];
-    return dataViewController;
-}
-
-- (NSUInteger)indexOfViewController:(PuuDataViewController *)viewController
-{   
-     // Return the index of the given data view controller.
-     // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
-    return [self.pageData indexOfObject:viewController.dataObject];
+    return self.pages[index];;
 }
 
 #pragma mark - Page View Controller Data Source
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
-    NSUInteger index = [self indexOfViewController:(PuuDataViewController *)viewController];
-    if ((index == 0) || (index == NSNotFound)) {
-        return nil;
-    }
+  if ([viewController class] == [PuuHoloholonaViewController class])
+    return [self.pages objectAtIndex:0];
+  else
+    return nil;
     
-    index--;
-    return [self viewControllerAtIndex:index storyboard:viewController.storyboard];
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
-    NSUInteger index = [self indexOfViewController:(PuuDataViewController *)viewController];
-    if (index == NSNotFound) {
-        return nil;
-    }
-    
-    index++;
-    if (index == [self.pageData count]) {
-        return nil;
-    }
-    return [self viewControllerAtIndex:index storyboard:viewController.storyboard];
+  if ([viewController class] == [PuuMeaViewController class])
+    return [self.pages objectAtIndex:1];
+  else
+    return nil;
 }
 
 @end

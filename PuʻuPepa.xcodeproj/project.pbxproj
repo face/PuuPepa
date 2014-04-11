@@ -26,6 +26,24 @@
 		0FF76E7D18F83A4C00A33AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF76E4F18F83A4B00A33AA0 /* Foundation.framework */; };
 		0FF76E8518F83A4C00A33AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76E8318F83A4C00A33AA0 /* InfoPlist.strings */; };
 		0FF76E8818F83A4C00A33AA0 /* Pu_uPepaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF76E8718F83A4C00A33AA0 /* Pu_uPepaTests.m */; };
+		0FF76E9918F848D800A33AA0 /* PuuHoloholonaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF76E9718F848D700A33AA0 /* PuuHoloholonaViewController.m */; };
+		0FF76E9A18F848D800A33AA0 /* PuuHoloholonaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76E9818F848D700A33AA0 /* PuuHoloholonaViewController.xib */; };
+		0FF76EA918F8506400A33AA0 /* lumikuke.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EA118F8506400A33AA0 /* lumikuke.png */; };
+		0FF76EAA18F8506400A33AA0 /* lumikuke2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EA218F8506400A33AA0 /* lumikuke2x.png */; };
+		0FF76EAB18F8506400A33AA0 /* pahi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EA318F8506400A33AA0 /* pahi.png */; };
+		0FF76EAC18F8506400A33AA0 /* pahi2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EA418F8506400A33AA0 /* pahi2x.png */; };
+		0FF76EAD18F8506400A33AA0 /* popoki.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EA518F8506400A33AA0 /* popoki.png */; };
+		0FF76EAE18F8506400A33AA0 /* popoki2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EA618F8506400A33AA0 /* popoki2x.png */; };
+		0FF76EAF18F8506400A33AA0 /* popokinui.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EA718F8506400A33AA0 /* popokinui.png */; };
+		0FF76EB018F8506400A33AA0 /* popokinui2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EA818F8506400A33AA0 /* popokinui2x.png */; };
+		0FF76EB318F8522200A33AA0 /* pahi_icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EB118F8522200A33AA0 /* pahi_icon2x.png */; };
+		0FF76EB418F8522200A33AA0 /* pahi_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EB218F8522200A33AA0 /* pahi_icon.png */; };
+		0FF76EB818F852B400A33AA0 /* PuuMeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF76EB618F852B300A33AA0 /* PuuMeaViewController.m */; };
+		0FF76EB918F852B400A33AA0 /* PuuMeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EB718F852B400A33AA0 /* PuuMeaViewController.xib */; };
+		0FF76EBC18F853BD00A33AA0 /* popokinui_icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EBA18F853BD00A33AA0 /* popokinui_icon2x.png */; };
+		0FF76EBD18F853BD00A33AA0 /* popokinui_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EBB18F853BD00A33AA0 /* popokinui_icon.png */; };
+		0FF76EC118F856A600A33AA0 /* PuuPahiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF76EBF18F856A600A33AA0 /* PuuPahiViewController.m */; };
+		0FF76EC218F856A600A33AA0 /* PuuPahiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF76EC018F856A600A33AA0 /* PuuPahiViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +84,27 @@
 		0FF76E8418F83A4C00A33AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FF76E8618F83A4C00A33AA0 /* Pu_uPepaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pu_uPepaTests.h; sourceTree = "<group>"; };
 		0FF76E8718F83A4C00A33AA0 /* Pu_uPepaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pu_uPepaTests.m; sourceTree = "<group>"; };
+		0FF76E9618F848D700A33AA0 /* PuuHoloholonaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuuHoloholonaViewController.h; sourceTree = "<group>"; };
+		0FF76E9718F848D700A33AA0 /* PuuHoloholonaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuuHoloholonaViewController.m; sourceTree = "<group>"; };
+		0FF76E9818F848D700A33AA0 /* PuuHoloholonaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuuHoloholonaViewController.xib; sourceTree = "<group>"; };
+		0FF76EA118F8506400A33AA0 /* lumikuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lumikuke.png; sourceTree = "<group>"; };
+		0FF76EA218F8506400A33AA0 /* lumikuke2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lumikuke2x.png; sourceTree = "<group>"; };
+		0FF76EA318F8506400A33AA0 /* pahi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pahi.png; sourceTree = "<group>"; };
+		0FF76EA418F8506400A33AA0 /* pahi2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pahi2x.png; sourceTree = "<group>"; };
+		0FF76EA518F8506400A33AA0 /* popoki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoki.png; sourceTree = "<group>"; };
+		0FF76EA618F8506400A33AA0 /* popoki2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoki2x.png; sourceTree = "<group>"; };
+		0FF76EA718F8506400A33AA0 /* popokinui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popokinui.png; sourceTree = "<group>"; };
+		0FF76EA818F8506400A33AA0 /* popokinui2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popokinui2x.png; sourceTree = "<group>"; };
+		0FF76EB118F8522200A33AA0 /* pahi_icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pahi_icon2x.png; sourceTree = "<group>"; };
+		0FF76EB218F8522200A33AA0 /* pahi_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pahi_icon.png; sourceTree = "<group>"; };
+		0FF76EB518F852B300A33AA0 /* PuuMeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuuMeaViewController.h; sourceTree = "<group>"; };
+		0FF76EB618F852B300A33AA0 /* PuuMeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuuMeaViewController.m; sourceTree = "<group>"; };
+		0FF76EB718F852B400A33AA0 /* PuuMeaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuuMeaViewController.xib; sourceTree = "<group>"; };
+		0FF76EBA18F853BD00A33AA0 /* popokinui_icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popokinui_icon2x.png; sourceTree = "<group>"; };
+		0FF76EBB18F853BD00A33AA0 /* popokinui_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popokinui_icon.png; sourceTree = "<group>"; };
+		0FF76EBE18F856A600A33AA0 /* PuuPahiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuuPahiViewController.h; sourceTree = "<group>"; };
+		0FF76EBF18F856A600A33AA0 /* PuuPahiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuuPahiViewController.m; sourceTree = "<group>"; };
+		0FF76EC018F856A600A33AA0 /* PuuPahiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuuPahiViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +164,7 @@
 		0FF76E5318F83A4B00A33AA0 /* PuʻuPepa */ = {
 			isa = PBXGroup;
 			children = (
+				0FF76EA018F8506400A33AA0 /* Images */,
 				0FF76E5C18F83A4B00A33AA0 /* PuuAppDelegate.h */,
 				0FF76E5D18F83A4C00A33AA0 /* PuuAppDelegate.m */,
 				0FF76E6518F83A4C00A33AA0 /* PuuRootViewController.h */,
@@ -132,7 +172,16 @@
 				0FF76E6818F83A4C00A33AA0 /* PuuDataViewController.h */,
 				0FF76E6918F83A4C00A33AA0 /* PuuDataViewController.m */,
 				0FF76E6B18F83A4C00A33AA0 /* PuuModelController.h */,
+				0FF76EBE18F856A600A33AA0 /* PuuPahiViewController.h */,
+				0FF76EBF18F856A600A33AA0 /* PuuPahiViewController.m */,
+				0FF76EC018F856A600A33AA0 /* PuuPahiViewController.xib */,
 				0FF76E6C18F83A4C00A33AA0 /* PuuModelController.m */,
+				0FF76E9618F848D700A33AA0 /* PuuHoloholonaViewController.h */,
+				0FF76E9718F848D700A33AA0 /* PuuHoloholonaViewController.m */,
+				0FF76E9818F848D700A33AA0 /* PuuHoloholonaViewController.xib */,
+				0FF76EB518F852B300A33AA0 /* PuuMeaViewController.h */,
+				0FF76EB618F852B300A33AA0 /* PuuMeaViewController.m */,
+				0FF76EB718F852B400A33AA0 /* PuuMeaViewController.xib */,
 				0FF76E6E18F83A4C00A33AA0 /* MainStoryboard_iPhone.storyboard */,
 				0FF76E7118F83A4C00A33AA0 /* MainStoryboard_iPad.storyboard */,
 				0FF76E5418F83A4B00A33AA0 /* Supporting Files */,
@@ -172,6 +221,25 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		0FF76EA018F8506400A33AA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0FF76EBA18F853BD00A33AA0 /* popokinui_icon2x.png */,
+				0FF76EBB18F853BD00A33AA0 /* popokinui_icon.png */,
+				0FF76EB118F8522200A33AA0 /* pahi_icon2x.png */,
+				0FF76EB218F8522200A33AA0 /* pahi_icon.png */,
+				0FF76EA118F8506400A33AA0 /* lumikuke.png */,
+				0FF76EA218F8506400A33AA0 /* lumikuke2x.png */,
+				0FF76EA318F8506400A33AA0 /* pahi.png */,
+				0FF76EA418F8506400A33AA0 /* pahi2x.png */,
+				0FF76EA518F8506400A33AA0 /* popoki.png */,
+				0FF76EA618F8506400A33AA0 /* popoki2x.png */,
+				0FF76EA718F8506400A33AA0 /* popokinui.png */,
+				0FF76EA818F8506400A33AA0 /* popokinui2x.png */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -251,6 +319,21 @@
 				0FF76E6418F83A4C00A33AA0 /* Default-568h@2x.png in Resources */,
 				0FF76E7018F83A4C00A33AA0 /* MainStoryboard_iPhone.storyboard in Resources */,
 				0FF76E7318F83A4C00A33AA0 /* MainStoryboard_iPad.storyboard in Resources */,
+				0FF76E9A18F848D800A33AA0 /* PuuHoloholonaViewController.xib in Resources */,
+				0FF76EA918F8506400A33AA0 /* lumikuke.png in Resources */,
+				0FF76EAA18F8506400A33AA0 /* lumikuke2x.png in Resources */,
+				0FF76EAB18F8506400A33AA0 /* pahi.png in Resources */,
+				0FF76EAC18F8506400A33AA0 /* pahi2x.png in Resources */,
+				0FF76EAD18F8506400A33AA0 /* popoki.png in Resources */,
+				0FF76EAE18F8506400A33AA0 /* popoki2x.png in Resources */,
+				0FF76EAF18F8506400A33AA0 /* popokinui.png in Resources */,
+				0FF76EB018F8506400A33AA0 /* popokinui2x.png in Resources */,
+				0FF76EB318F8522200A33AA0 /* pahi_icon2x.png in Resources */,
+				0FF76EB418F8522200A33AA0 /* pahi_icon.png in Resources */,
+				0FF76EB918F852B400A33AA0 /* PuuMeaViewController.xib in Resources */,
+				0FF76EBC18F853BD00A33AA0 /* popokinui_icon2x.png in Resources */,
+				0FF76EBD18F853BD00A33AA0 /* popokinui_icon.png in Resources */,
+				0FF76EC218F856A600A33AA0 /* PuuPahiViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +373,9 @@
 				0FF76E6718F83A4C00A33AA0 /* PuuRootViewController.m in Sources */,
 				0FF76E6A18F83A4C00A33AA0 /* PuuDataViewController.m in Sources */,
 				0FF76E6D18F83A4C00A33AA0 /* PuuModelController.m in Sources */,
+				0FF76E9918F848D800A33AA0 /* PuuHoloholonaViewController.m in Sources */,
+				0FF76EB818F852B400A33AA0 /* PuuMeaViewController.m in Sources */,
+				0FF76EC118F856A600A33AA0 /* PuuPahiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +566,7 @@
 				0FF76E8D18F83A4C00A33AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FF76E8E18F83A4C00A33AA0 /* Build configuration list for PBXNativeTarget "PuʻuPepaTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +575,7 @@
 				0FF76E9018F83A4C00A33AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
